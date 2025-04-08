@@ -67,3 +67,4 @@ gem "devise-bootstrap-views", "~> 0.0.11"
 gem "jquery-rails", "~> 4.3.1"
 
 gem "font-awesome-rails", "~> 4.7"
+gem "stripe", "~> 14.0"
