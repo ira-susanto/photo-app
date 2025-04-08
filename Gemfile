@@ -51,9 +51,17 @@ group :development do
 end
 
 group :production do 
-  gem 'pg'
-  gem 'rails_12factor'
+  gem 'pg', '~> 0.11'
+  gem 'rails_12factor', "~> 0.0.3"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "devise", "~> 4.9"
+
+gem "twitter-bootstrap-rails", "~> 5.0"
+
+gem "devise-bootstrap-views", "~> 1.1"
+
+gem "jquery-rails", "~> 4.6"
