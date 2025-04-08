@@ -60,8 +60,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "devise", "~> 4.9"
 
-gem "twitter-bootstrap-rails", "~> 5.0"
+gem "twitter-bootstrap-rails", "~> 4.0"
 
-gem "devise-bootstrap-views", "~> 1.1"
+gem "devise-bootstrap-views", "~> 0.0.11"
 
-gem "jquery-rails", "~> 4.6"
+gem "jquery-rails", "~> 4.3.1"
+
+gem "font-awesome-rails", "~> 4.7"
