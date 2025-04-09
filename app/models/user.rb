@@ -4,4 +4,8 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable,
          :confirmable, :lockable
+
+  has_one :payment
+
+  accepts_nested_attributes_for :payment
 end
